@@ -1,0 +1,842 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Neura - Joomla 5 AI Saas Website for you</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/background/intelligent-assistant.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <section class="barnav p-0 ">
+            <nav class="navbar navbar-expand-xxl bg-body-tertiary p-0">
+                <div class="container-fluid py-5 px-3 px-md-5 nav" id="navcontainer">
+                    <a class="navbar-brand" href="#"><img src="./images/background/Logo.svg" alt="logo"
+                            class="img-fluid navlogo ms-xxl-5"></a>
+                    <div class="d-flex align-items-center d-lg-inline">
+                        <button class="navbar-toggler border-0 me-md-5" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                        <button class="d-none d-md-inline d-xxl-none rounded-5 quotebtn">Get A Quote <i
+                                class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active px-4 navtext" href="#" aria-current="page"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Home 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Home 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4 navtext" href="./aboutus.html">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle px-4 navtext" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="services.html">Services</a></li>
+                                    <li><a class="dropdown-item" href="servicesdetails.html">Services Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle px-4 navtext" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Blog</a></li>
+                                    <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4 navtext" href="#">Price</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle px-4 navtext" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Page
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item navtext text-dark" href="#">FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4 navtext" href="./contact.html">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="d-none d-xxl-inline rounded-5 quotebtn me-5">Get A Quote <i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <main class="container-fluid">
+
+        <section class="row justify-content-center" id="herosection">
+            <section class="col col-xxl-11">
+                <div class="row justify-content-evenly">
+                    <div class="col-12 col-md-5 col-lg-6">
+                        <div>
+                            <h6 id="herohead1">AI PROMPT</h6>
+                            <h2 id="herohead2" class="my-5">Start Your AI Go Journey With Us</h2>
+                            <div class="d-xxl-flex">
+                                <input id="heroinput" type="text" placeholder="Enter Email"
+                                    class="form-control rounded-5 py-3 my-xxl-2">
+                                <div class="text-center ms-2">
+                                    <button class="rounded-5 quotebtn my-4 my-md-2 px-xxl-5">Start AI <i
+                                            class="fa-solid fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 text-center">
+                        <img src="./images/background/profile-img (1).png" alt="robot" class="img-fluid">
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="row my-5 justify-content-center" id="techniques">
+            <div class="col col-md-11 col-xxl-10">
+                <section class="row justify-content-evenly">
+                    <div class="col-12 col-lg-9">
+                        <h3 id="techniqueshead" class="text-center my-4 mx-auto">Advanced Machine Learning Techniques AI
+                        </h3>
+                    </div>
+                    <div class="col-12 mb-1 col-md-4 my-md-5">
+                        <div class="card p-0 rounded-4">
+                            <div class="card-body p-5">
+                                <div class="mb-4 pb-2 mb-lg-5">
+                                    <i class="fa-solid fa-hexagon-nodes-bolt rounded-circle p-3 cardicon"></i>
+                                </div>
+                                <h5 class="card-title mb-3"><a href="#" class="cardhead">Artifacia Sensitivo</a></h5>
+                                <p class="card-text cardpara mb-lg-5 mt-lg-4">AI Artificial Intelligence is a branch of
+                                    computer science
+                                    that
+                                    focuses on the development of intelligent machines</p>
+                                <a href="#" class="btn cardbtn mt-2 px-0">Read More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 my-4 col-md-4 my-md-5">
+                        <div class="card p-0 rounded-4">
+                            <div class="card-body p-5">
+                                <div class="mb-4 pb-2 mb-lg-5">
+                                    <i class="fa-solid fa-brain rounded-circle p-3 cardicon"></i>
+                                </div>
+                                <h5 class="card-title mb-3"><a href="#" class="cardhead">Artifacia Sensitivo</a></h5>
+                                <p class="card-text cardpara mb-lg-5 mt-lg-4">AI Artificial Intelligence is a branch of
+                                    computer science
+                                    that
+                                    focuses on the development of intelligent machines</p>
+                                <a href="#" class="btn cardbtn mt-2 px-0">Read More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-1 col-md-4 mb-5 my-md-5">
+                        <div class="card p-0 rounded-4">
+                            <div class="card-body p-5">
+                                <div class="mb-4 pb-2 mb-lg-5">
+                                    <i class="fa-solid fa-comment-nodes rounded-circle p-3 cardicon"></i>
+                                </div>
+                                <h5 class="card-title mb-3"><a href="#" class="cardhead">Artifacia Sensitivo</a></h5>
+                                <p class="card-text cardpara mb-lg-5 mt-lg-4">AI Artificial Intelligence is a branch of
+                                    computer science
+                                    that
+                                    focuses on the development of intelligent machines</p>
+                                <a href="#" class="btn cardbtn mt-2 px-0">Read More <i
+                                        class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="row justify-content-center my-5 mt-md-0 mx-md-1 my-lg-5" id="numbers">
+            <div class="col-11 col-xl-10">
+                <section class="row">
+                    <div class="col-12 text-center rounded-4" id="numbersvideo">
+                        <a href="#">
+                            <button class="btn rounded-circle" id="videobtn"><i
+                                    class="fa-solid fa-play videoicon"></i></button>
+                        </a>
+                    </div>
+                    <div class="col my-5">
+                        <div class="row text-center justify-content-evenly mx-auto">
+                            <div class="col-12 col-md-5 col-xl-3 p-0 d-md-flex my-3">
+                                <div class="numicondiv">
+                                    <i class="fa-solid fa-globe p-4 border rounded-circle numbericon"></i>
+                                </div>
+                                <div class="ms-md-3">
+                                    <h4 class="number">400<span class="numberspan">&plus;</span></h4>
+                                    <p class="numbertext">Team Members</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 col-xl-3 p-0 d-md-flex my-3">
+                                <div class="numicondiv">
+                                    <i class="fa-solid fa-microchip p-4 border rounded-circle numbericon"></i>
+                                </div>
+                                <div class="ms-md-3">
+                                    <h4 class="number">80<span class="numberspan">K</span></h4>
+                                    <p class="numbertext">Client Review</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 col-xl-3 p-0 d-md-flex my-3">
+                                <div class="numicondiv">
+                                    <i class="fa-solid fa-cloud-arrow-up border rounded-circle numbericon1"></i>
+                                </div>
+                                <div class="ms-md-3">
+                                    <h4 class="number">10<span class="numberspan">K</span></h4>
+                                    <p class="numbertext">Complete Project</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 col-xl-3 p-0 d-md-flex my-3">
+                                <div class="numicondiv">
+                                    <i class="fa-solid fa-robot border rounded-circle numbericon1"></i>
+                                </div>
+                                <div class="ms-md-3">
+                                    <h4 class="number">40<span class="numberspan">K</span></h4>
+                                    <p class="numbertext">Winning Award</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="row justify-content-center" id="applications">
+            <div class="col col-xl-10 mb-5">
+                <section class="row justify-content-evenly">
+                    <div class="col-12 col-md-9">
+                        <h3 id="apphead" class="text-center mb-5">Revolutionizing Patient Care AI Applications</h3>
+                    </div>
+                    <div class="col-12 col-md-5 mt-5 pt-lg-5">
+                        <a href="#" class="applink d-flex justify-content-between pb-3">
+                            <p class="m-0">AI in Education</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#" class="applink d-flex justify-content-between py-3">
+                            <p class="m-0">AI in Retail</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#" class="applink d-flex justify-content-between py-3">
+                            <p class="m-0">AI-driven Personalization</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#" class="applink d-flex justify-content-between py-3">
+                            <p class="m-0">AI for Social Good</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="#" class="applink d-flex justify-content-between py-3">
+                            <p class="m-0">The Evolution of AI</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col col-md-5 mt-4 text-center">
+                        <img src="./images/illustrative/img-1 (4).png" alt="brain" class="img-fluid rounded-4">
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <sectin class="row my-5 justify-content-center" id="theory">
+            <div class="col col-lg-10">
+                <section class="row justify-content-center">
+                    <div class="col-12 col-md-8 col-xxl-5 col-lg-7 text-center">
+                        <h4 id="theoryhead">Understanding Neural Networks Theory</h4>
+                        <p id="theorytext" class="my-4 my-xl-5">AI Artificial Intelligence is a branch of computer
+                            science that
+                            focuses on
+                            the development of
+                            intelligent machines that</p>
+                    </div>
+                    <div class="col-12">
+                        <div class="row justify-content-evenly">
+                            <div class="col-12 col-md-5 col-xxl-3">
+                                <div class="card p-0 rounded-4 my-3">
+                                    <div class="card-body p-5 theorycardbody">
+                                        <div class="mb-4 pb-2 mb-lg-5">
+                                            <img src="./images/background/blue.svg" alt="detectica"
+                                                class="img-fluid theoryimg">
+                                        </div>
+                                        <h5 class="card-title mb-3"><a href="#" class="cardhead">Detectica</a>
+                                        </h5>
+                                        <p class="card-text cardpara mb-lg-5 mt-lg-4">AI Artificial Intelligence is a
+                                            branch of computer science that focuses on the</p>
+                                        <a href="#" class="btn cardbtn mt-2 px-0">Read More <span
+                                                class="theorybtnicon"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 col-xxl-3">
+                                <div class="card p-0 rounded-4 my-3">
+                                    <div class="card-body p-5 theorycardbody">
+                                        <div class="mb-4 pb-2 mb-lg-5">
+                                            <img src="./images/background/bag.svg" alt="mindscribe"
+                                                class="img-fluid theoryimg">
+                                        </div>
+                                        <h5 class="card-title mb-3"><a href="#" class="cardhead">Mindscribe</a>
+                                        </h5>
+                                        <p class="card-text cardpara mb-lg-5 mt-lg-4">AI Artificial Intelligence is a
+                                            branch of computer science that focuses on the</p>
+                                        <a href="#" class="btn cardbtn mt-2 px-0">Read More <span
+                                                class="theorybtnicon"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 col-xxl-3">
+                                <div class="card p-0 rounded-4 my-3">
+                                    <div class="card-body p-5 theorycardbody">
+                                        <div class="mb-4 pb-2 mb-lg-5">
+                                            <img src="./images/background/F.svg" alt="datawise"
+                                                class="img-fluid theoryimg">
+                                        </div>
+                                        <h5 class="card-title mb-3"><a href="#" class="cardhead">Datawise</a>
+                                        </h5>
+                                        <p class="card-text cardpara mb-lg-5 mt-lg-4">AI Artificial Intelligence is a
+                                            branch of computer science that focuses on the</p>
+                                        <a href="#" class="btn cardbtn mt-2 px-0">Read More <span
+                                                class="theorybtnicon"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 col-xxl-3">
+                                <div class="card p-0 rounded-4 my-3">
+                                    <div class="card-body p-5 theorycardbody">
+                                        <div class="mb-4 pb-2 mb-lg-5">
+                                            <img src="./images/background/W.svg" alt="neuroflow"
+                                                class="img-fluid theoryimg">
+                                        </div>
+                                        <h5 class="card-title mb-3"><a href="#" class="cardhead">Neuro Flow</a>
+                                        </h5>
+                                        <p class="card-text cardpara mb-lg-5 mt-lg-4">AI Artificial Intelligence is a
+                                            branch of computer science that focuses on the</p>
+                                        <a href="#" class="btn cardbtn mt-2 px-0">Read More <span
+                                                class="theorybtnicon"><i class="fa-solid fa-arrow-right"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </sectin>
+
+        <section class="row mt-5 justify-content-center" id="socialgood">
+            <div class="col col-md-11 col-xxl-10">
+                <section class="row justify-content-evenly my-5">
+                    <div class="col-12 col-md-5 col-lg-5 mb-5" id="socialdiv1">
+                        <img src="./images/illustrative/img-1 (5).png" alt="socialmedia" class="img-fluid">
+                    </div>
+                    <div class="col col-md-7">
+                        <h3 id="socialhead" class="my-3">AI for Social Good Leveragin Technology for Positive</h3>
+                        <p id="socialtext" class="py-4">AI Artificial Intelligence is a branch of computer science that
+                            focuses on the development of
+                            intelligent machines that</p>
+                        <div class="row">
+                            <div class="col col-md-6">
+                                <div class="card p-0 rounded-4 my-3">
+                                    <div class="card-body p-5 socialcardbody">
+                                        <h2 class="socialcardhead1">01</h2>
+                                        <h5 class="card-title mb-3 socialcardhead2">Logicify</h5>
+                                        <p class="card-text socialcardpara mt-lg-4">AI Artificial Intelligence
+                                            is a
+                                            branch of computer science that focuses on the</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card p-0 rounded-4 my-3">
+                                    <div class="card-body p-5 socialcardbody">
+                                        <h2 class="socialcardhead1">02</h2>
+                                        <h5 class="card-title mb-3 socialcardhead2">Logicify</h5>
+                                        <p class="card-text socialcardpara mt-lg-4">AI Artificial Intelligence
+                                            is a
+                                            branch of computer science that focuses on the</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card p-0 rounded-4 my-3">
+                                    <div class="card-body p-5 socialcardbody">
+                                        <h2 class="socialcardhead1">03</h2>
+                                        <h5 class="card-title mb-3 socialcardhead2">Auramind</h5>
+                                        <p class="card-text socialcardpara mt-lg-4">AI Artificial Intelligence
+                                            is a
+                                            branch of computer science that focuses on the</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="card p-0 rounded-4 my-3">
+                                    <div class="card-body p-5 socialcardbody">
+                                        <h2 class="socialcardhead1">04</h2>
+                                        <h5 class="card-title mb-3 socialcardhead2">Responeuro</h5>
+                                        <p class="card-text socialcardpara mt-lg-4">AI Artificial Intelligence
+                                            is a
+                                            branch of computer science that focuses on the</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="row justify-content-center" id="development">
+            <div class="col col-md-11">
+                <section class="row justify-content-center">
+                    <div class="col-12 col-md-8 col-lg-6 col-xxl-5 mb-5">
+                        <h3 class="developheading text-center px-xxl-4">Ethical Considerations In AI Development
+                        </h3>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row d-none d-xxl-flex">
+                                    <i class=" col fa-solid fa-quote-left developicon"></i>
+                                    <div class="col col-lg-10"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="card p-0 rounded-4 my-3">
+                                    <div class="card-body p-4 p-xxl-5 developcardbody">
+                                        <div class="mb-4 mb-md-2 d-md-flex">
+                                            <img src="./images/illustrative/profile-1 (1).png" alt="profile-2"
+                                                class="img-fluid developimg mb-3 me-4">
+                                            <div>
+                                                <h5 class="card-title develophead">Esther Howard</h5>
+                                                <p class="developtext">Marketing CEO</p>
+                                            </div>
+                                        </div>
+                                        <p class="card-text developpara mt-lg-4 mb-5">AI Artificial Intelligence is a
+                                            branch of computer science that focuses on the development of
+                                            intelligent
+                                            machines that can perform tasks that typically require human
+                                            intelligence.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-none d-lg-inline col-lg-6">
+                                <div class="card p-0 rounded-4 my-3">
+                                    <div class="card-body p-4 p-xxl-5 developcardbody">
+                                        <div class="mb-4 mb-md-2 d-md-flex">
+                                            <img src="./images/illustrative/profile-2 (1).png" alt="profile-2"
+                                                class="img-fluid developimg mb-3 me-4">
+                                            <div>
+                                                <h5 class="card-title develophead">Lesli Alexander</h5>
+                                                <p class="developtext">Web Designer</p>
+                                            </div>
+                                        </div>
+                                        <p class="card-text developpara mt-lg-4 mb-5">Computer science focuses on the
+                                            development of intelligent machines that can perform tasks that
+                                            typically
+                                            require human intelligence.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row text-end d-none d-xxl-flex">
+                                <div class="col col-lg-10"></div>
+                                <i class="col fa-solid fa-quote-right developicon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="row" id="users">
+            <div class="col">
+                <section class="row justify-content-center">
+                    <div class="col-12 col-md-11">
+                        <div class="row justify-content-between">
+                            <div class="col-12 col-md-7 col-lg-8 col-xxl-6">
+                                <h3 id="userheading">AI-Driven Personalization Customizing User</h3>
+                            </div>
+                            <div class="col-12 my-4 col-md-5 col-lg-3 col-xxl-2 my-auto">
+                                <button class="rounded-5 quotebtn ms-lg-5">View All <i
+                                        class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="row mt-5 justify-content-evenly">
+                            <div class="col-12 col-md-5 col-lg-3">
+                                <div class="card my-3 p-2 usercard">
+                                    <div class="userimg rounded-4">
+                                        <img src="./images/illustrative/img-1 (2).jpg" class="card-img-top img-fluid"
+                                            alt="user1">
+                                    </div>
+                                    <div class="card-body p-4 mb-5 mt-3">
+                                        <h5 class="card-title usercardhead mb-2">Amar Deep</h5>
+                                        <p class="card-text usercardtext">Founder</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-3">
+                                <div class="card my-3 p-2 usercard">
+                                    <div class="userimg rounded-4">
+                                        <img src="./images/illustrative/img-2 (2).jpg" class="card-img-top img-fluid"
+                                            alt="user1">
+                                    </div>
+                                    <div class="card-body p-4 mb-5 mt-3">
+                                        <h5 class="card-title usercardhead mb-2">Nikhil Raman</h5>
+                                        <p class="card-text usercardtext">UI Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-3">
+                                <div class="card my-3 p-2 usercard">
+                                    <div class="userimg rounded-4">
+                                        <img src="./images/illustrative/img-3 (2).jpg" class="card-img-top img-fluid"
+                                            alt="user1">
+                                    </div>
+                                    <div class="card-body p-4 mb-5 mt-3">
+                                        <h5 class="card-title usercardhead mb-2">Aryan Agate</h5>
+                                        <p class="card-text usercardtext">Web Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-3">
+                                <div class="card my-3 p-2 usercard">
+                                    <div class="userimg rounded-4">
+                                        <img src="./images/illustrative/img-4 (1).jpg" class="card-img-top img-fluid"
+                                            alt="user1">
+                                    </div>
+                                    <div class="card-body p-4 mb-5 mt-3">
+                                        <h5 class="card-title usercardhead mb-2">Rahul Bhagat</h5>
+                                        <p class="card-text usercardtext">UX Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="row justify-content-center my-5" id="privacy">
+            <div class="col col-md-11">
+                <section class="row justify-content-center mb-5">
+                    <div class="col-12 col-md-6 text-center privacyimgdiv">
+                        <img src="./images/illustrative/img-1 (1).png" alt="privacy" class="img-fluid">
+                    </div>
+                    <div class="col col-md-6">
+                        <div class="my-4">
+                            <h3 id="privacyhead">
+                                The Impact Of AI On Data Privacy And Security
+                            </h3>
+                            <p id="privacytext" class="my-4">
+                                AI Artificial Intelligence is a branch of computer science that focuses on the
+                                development of intelligent machines that
+                            </p>
+                        </div>
+                        <div>
+                            <div class="Accordion my-2 rounded-4">
+                                <div>
+                                    <button class="accordion-button accbtn d-flex" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        <div class="w-100 d-flex justify-content-between align-items-center">
+                                            <span>How can AI enhance through chatbot?</span>
+                                            <i class="fa-solid fa-chevron-right accicon"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div id="collapseOne" class="accordion-collapse collapse accpara show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body mt-5">
+                                        AI Artificial Intelligence is a branch of computer science that focuses on the
+                                        development of intelligent machines that can perform tasks that typically
+                                        require AI Artificial Intelligence is a branch of computer
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Accordion my-2 rounded-4">
+                                <div>
+                                    <button class="accordion-button accbtn" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                        <div class="w-100 d-flex justify-content-between align-items-center">
+                                            What is the future of AI in autonomous vehicles?
+                                            <i class="fa-solid fa-chevron-right accicon"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div id="collapseTwo" class="accordion-collapse collapse accpara"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body mt-5">
+                                        AI Artificial Intelligence is a branch of computer science that focuses on the
+                                        development of intelligent machines that can perform tasks that typically
+                                        require AI Artificial Intelligence is a branch of computer
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Accordion my-2 rounded-4">
+                                <div>
+                                    <button class="accordion-button accbtn" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="true"
+                                        aria-controls="collapseThree">
+                                        <div class="w-100 d-flex justify-content-between align-items-centerv">
+                                            What ethical challenges are AI development?
+                                            <i class="fa-solid fa-chevron-right accicon"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div id="collapseThree" class="accordion-collapse collapse accpara"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body mt-5">
+                                        AI Artificial Intelligence is a branch of computer science that focuses on the
+                                        development of intelligent machines that can perform tasks that typically
+                                        require AI Artificial Intelligence is a branch of computer
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Accordion my-2 rounded-4">
+                                <div>
+                                    <button class="accordion-button accbtn" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="true"
+                                        aria-controls="collapseFour">
+                                        <div class="w-100 d-flex justify-content-between align-items-center">
+                                            What ethical challenges are AI Development?
+                                            <i class="fa-solid fa-chevron-right accicon"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div id="collapseFour" class="accordion-collapse collapse accpara"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body mt-5">
+                                        AI Artificial Intelligence is a branch of computer science that focuses on the
+                                        development of intelligent machines that can perform tasks that typically
+                                        require AI Artificial Intelligence is a branch of computer
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Accordion my-2 rounded-4">
+                                <div>
+                                    <button class="accordion-button accbtn" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="true"
+                                        aria-controls="collapseFive">
+                                        <div class="w-100 d-flex justify-content-between align-items-center">
+                                            How can AI benefit the finance industry?
+                                            <i class="fa-solid fa-chevron-right accicon"></i>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div id="collapseFive" class="accordion-collapse collapse accpara"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body mt-5">
+                                        AI Artificial Intelligence is a branch of computer science that focuses on the
+                                        development of intelligent machines that can perform tasks that typically
+                                        require AI Artificial Intelligence is a branch of computer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="row justify-content-center my-5" id="company">
+            <div class="col-12 col-md-11">
+                <section class="row justify-content-center">
+                    <div class="col-12 d-md-flex justify-content-around">
+                        <div class="text-center"><img src="./images/background/logo-1 (2).svg" alt="companylogo1"
+                                class="img-fluid companylogo"></div>
+                        <div class="text-center d-none d-md-inline"><img src="./images/background/logo-2 (2).svg"
+                                alt="companylogo2" class="img-fluid companylogo"></div>
+                        <div class="text-center d-none d-md-inline"><img src="./images/background/logo-3 (2).svg"
+                                alt="companylogo3" class="img-fluid companylogo"></div>
+                        <div class="text-center d-none d-xxl-inline"><img src="./images/background/logo-4 (3).svg"
+                                alt="companylogo4" class="img-fluid companylogo"></div>
+                        <div class="text-center d-none d-xxl-inline"><img src="./images/background/logo-5 (2).svg"
+                                alt="companylogo5" class="img-fluid companylogo"></div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section class="row justify-content-center mt-5 pb-5" id="worlds">
+            <div class="col-12 col-md-11">
+                <section class="row justify-content-center mt-5">
+                    <div class="col-12">
+                        <div class="row justify-content-between">
+                            <div class="col-12 col-md-7 col-lg-8 col-xxl-6">
+                                <h3 id="worldhead">AI-Driven Personalization Customizing User</h3>
+                            </div>
+                            <div class="col-12 my-4 col-md-5 col-lg-3 col-xxl-2 my-auto">
+                                <button class="rounded-5 quotebtn ms-lg-5">View All <i
+                                        class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-5 justify-content-center p-0">
+                        <div class="col-12 col-md-4 my-2">
+                            <div class="card p-4 rounded-4 worldcard">
+                                <a href="#">
+                                    <img src="./images/illustrative/img-1 (3).jpg" class="card-img-top rounded-4"
+                                        alt="future">
+                                </a>
+                                <div class="card-body p-0 py-4">
+                                    <a href="#" class="worldtitle">
+                                        <h5 class="card-title worldtitle mb-4">The Future Performance Analysis and
+                                            Training</h5>
+                                    </a>
+                                    <p class="card-text worldtext">20 August 2024 &nbsp; admin</p>
+                                    <a href="#" class="worldanchor">Read More <span class="theorybtnicon"><i
+                                                class="fa-solid fa-arrow-right"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 my-2">
+                            <div class="card p-4 rounded-4 worldcard">
+                                <a href="#">
+                                    <img src="./images/illustrative/img-2 (3).jpg" class="card-img-top rounded-4"
+                                        alt="future">
+                                </a>
+                                <div class="card-body p-0 py-4">
+                                    <a href="#" class="worldtitle">
+                                        <h5 class="card-title worldtitle mb-4">AI Tools for Disaster Emergency
+                                            Management</h5>
+                                    </a>
+                                    <p class="card-text worldtext">20 August 2024 &nbsp; admin</p>
+                                    <a href="#" class="worldanchor">Read More <span class="theorybtnicon"><i
+                                                class="fa-solid fa-arrow-right"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 my-2">
+                            <div class="card p-4 rounded-4 worldcard">
+                                <a href="#">
+                                    <img src="./images/illustrative/img-3 (3).jpg" class="card-img-top rounded-4"
+                                        alt="future">
+                                </a>
+                                <div class="card-body p-0 py-4">
+                                    <a href="#" class="worldtitle">
+                                        <h5 class="card-title worldtitle mb-4">The Intersection of AI and Human
+                                            Psychology</h5>
+                                    </a>
+                                    <p class="card-text worldtext">20 August 2024 &nbsp; admin</p>
+                                    <a href="#" class="worldanchor">Read More <span class="theorybtnicon"><i
+                                                class="fa-solid fa-arrow-right"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="container-fluid">
+        <section class="row pt-5 justify-content-center" id="footer">
+            <div class="col col-md-11">
+                <section class="row justify-content-evenly">
+                    <div class="col-12 col-md-4 col-lg-5 my-5">
+                        <div class="">
+                            <img src="./images/background/Logo.svg" alt="logo" class="img-fluid">
+                        </div>
+                        <div>
+                            <p class="footertext my-5">
+                                Many desktop ublishing packages web page editors no Lorem Ipsum a default model text
+                            </p>
+                            <div class="mb-3">
+                                <a href="#"><i
+                                        class="fa-brands fa-facebook-f footericon1 border rounded-circle"></i></a>
+                                <a href="#"><i
+                                        class="fa-brands fa-linkedin-in footericon2 border rounded-circle mx-2"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram footericon3 border rounded-circle"></i></a>
+                                <a href="#"><i
+                                        class="fa-brands fa-x-twitter footericon4 border rounded-circle mx-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3 my-md-5">
+                        <h3 class="footerhead mb-3 mb-lg-5">
+                            Useful Links
+                        </h3>
+                        <ul class="p-0" id="footerlist">
+                            <li class="my-2"><a href="#" class="footerlink">Software Corner</a></li>
+                            <li class="my-2"><a href="#" class="footerlink">Apllication Corner</a></li>
+                            <li class="my-2"><a href="#" class="footerlink">Research Section</a></li>
+                            <li class="my-2"><a href="#" class="footerlink">Developing Corner</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 col-xxl-3 my-5">
+                        <h3 class="footerhead mb-3 mb-lg-5">
+                            Contact
+                        </h3>
+                        <div>
+                            <div class="d-flex my-3">
+                                <i class="fa-solid fa-phone me-3 contacticon"></i>
+                                <a href="#" class="contactinfo">&plus;880 123 45 67 89</a>
+                            </div>
+                            <div class="d-flex my-3">
+                                <i class="fa-solid fa-envelope me-3 contacticon"></i>
+                                <a href="#" class="contactinfo">office@example.com</a>
+                            </div>
+                            <div class="d-flex my-3">
+                                <i class="fa-solid fa-location-dot me-3 contacticon"></i>
+                                <p class="contactinfo1">1212, Lav Vegas, The Veg Street</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section id="infofooter" class="row justify-content-center">
+            <div class="col col-md-11">
+                <div class="d-lg-flex justify-content-between border-top border-secondary-subtle py-4">
+                    <div class="text-center">
+                        <p id="infotext">All Rights Reserved &copy; 2024</p>
+                    </div>
+                    <div class="text-center">
+                        <p id="infoname">Made By : <a href="#" id="info">Om Pimpale (PP113)</a></p>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="pe-2 footlink">Privacy</a>
+                        <a href="#" class="px-2 footlink">Terms</a>
+                        <a href="#" class="px-2 footlink">Sitemap</a>
+                        <a href="#" class="px-2 footlink border-0">Help</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
