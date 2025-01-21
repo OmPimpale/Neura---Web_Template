@@ -14,7 +14,7 @@
 
 .barnav,
 .nav {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
     z-index: 10;
@@ -82,7 +82,7 @@ main {
     color: var(--white);
 }
 
-#heroanchor:hover{
+#heroanchor:hover {
     color: var(--themecolor);
     transition-duration: .4s;
 }
@@ -103,7 +103,7 @@ main {
 
 .dvenum {
     height: 33px;
-    width: 50px;
+    width: 33px;
     color: var(--white);
     padding: 3.7px 7.1px;
     border: 1px solid var(--themecolor);
@@ -324,7 +324,7 @@ main {
 }
 
 .developimg {
-    width: 65px;
+    width: 65px !important;
 }
 
 .develophead {
@@ -409,7 +409,7 @@ main {
 }
 
 .companylogo {
-    width: 125px;
+    width: 40% !important;
 }
 
 /* footer */
@@ -437,7 +437,7 @@ footer {
     background-color: var(--themecolor);
 }
 
-#footerbtn:hover{
+#footerbtn:hover {
     background-color: var(--black);
     border: 2px solid var(--themecolor) !important;
     border-radius: 50%;
@@ -562,6 +562,12 @@ footer {
 
 @media only screen and (min-width:768px) {
 
+    /*  */
+    .dvenum {
+        height: 33px;
+        width: 50px;
+    }
+
     /* theory */
     #theoryhead {
         font-size: 42px;
@@ -594,6 +600,12 @@ footer {
     /* development */
     #theory {
         padding-bottom: 350px;
+    }
+
+    /*  */
+    .dvenum {
+        height: 33px;
+        width: 40px;
     }
 
     /* number */

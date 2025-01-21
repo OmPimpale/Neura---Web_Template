@@ -305,7 +305,7 @@ main {
 }
 
 .developimg {
-    width: 65px;
+    width: 65px !important;
 }
 
 .develophead {
@@ -407,7 +407,7 @@ main {
 }
 
 .companylogo {
-    width: 125px;
+    width: 40% !important;
 }
 
 /* worlld */
