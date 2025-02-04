@@ -9,7 +9,7 @@ A sleek and modern website template designed for AI and technology-focused busin
 🚀 About Neura
 Neura is a multi-page web template built for businesses leveraging Artificial Intelligence. The design is minimalist, clean, and professional, ensuring an engaging user experience.
 
-# Key Sections
+# 🔑Key Sections
 
 ✔️ About Us - Showcase your vision and mission
 <br/>
