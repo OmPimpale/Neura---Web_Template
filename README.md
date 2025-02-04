@@ -1,8 +1,55 @@
-# Neura---Web_Template
-# Neura: A sleek and modern AI-focused website template that captures the essence of innovation and technology.
+# 🧠 Neura - AI Web Template
 
-Neura: A visually stunning and feature-rich website template designed specifically for AI and technology-focused businesses. Featuring a clean, minimalist design with a focus on showcasing your AI solutions, team, and expertise. Neura includes essential sections like "About Us," "Services," "Blog," "Pricing," "Contact," and more. It's fully responsive, ensuring a seamless experience across all devices.
+A sleek and modern website template designed for AI and technology-focused businesses. Neura captures the essence of innovation and technology, making it perfect for showcasing AI solutions, expertise, and services.
 
-Multi Page web template for businesses focussing on their journey with AI.
+# 🌟 Live Demo
 
-Site : https://ompimpale.github.io/Neura---Web_Template/index.html
+🔗 <a href="https://ompimpale.github.io/Neura---Web_Template/index.html">View Neura in Action</a>
+
+🚀 About Neura
+Neura is a multi-page web template built for businesses leveraging Artificial Intelligence. The design is minimalist, clean, and professional, ensuring an engaging user experience.
+
+# Key Sections
+
+✔️ About Us - Showcase your vision and mission
+✔️ Services - Highlight AI-powered solutions
+✔️ Blog - Share insights and updates
+✔️ Pricing - Transparent pricing models
+✔️ Contact - Easy communication for clients
+
+# 🎨 Features
+
+✅ Modern & Sleek Design - Professional and futuristic layout
+✅ Fully Responsive - Optimized for mobile, tablet, and desktop views
+✅ Multi-Page Layout - Organized sections for a structured experience
+✅ HTML, CSS, Bootstrap, JavaScript - Built with cutting-edge web technologies
+✅ Smooth Animations - Enhance user engagement
+
+# 📥 Installation
+
+Follow these steps to set up the project locally:
+
+1️⃣ Clone the Repository
+
+```sh
+git clone https://github.com/OmPimpale/Neura---Web_Template.git
+```
+
+```sh
+cd Neura---Web_Template
+```
+
+2️⃣ Open the Project
+Open the index.html file in your browser.
+Use Live Server in VS Code for a better experience.
+
+3️⃣ Direct Download
+Alternatively, download the ZIP folder from GitHub and extract it.
+
+🤝 Contributing
+Want to improve Neura? Feel free to fork the repository, make your changes, and submit a pull request.
+
+📧 Contact
+For any questions or suggestions, reach out to:
+📩 Email: ompimpale2003@gmail.com
+🌐 GitHub: <a href="https://github.com/OmPimpale">OmPimpale</a>
