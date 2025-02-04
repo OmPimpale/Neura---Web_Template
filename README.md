@@ -12,17 +12,25 @@ Neura is a multi-page web template built for businesses leveraging Artificial In
 # Key Sections
 
 ✔️ About Us - Showcase your vision and mission
+<br/>
 ✔️ Services - Highlight AI-powered solutions
+<br/>
 ✔️ Blog - Share insights and updates
+<br/>
 ✔️ Pricing - Transparent pricing models
+<br/>
 ✔️ Contact - Easy communication for clients
 
 # 🎨 Features
 
 ✅ Modern & Sleek Design - Professional and futuristic layout
+<br/>
 ✅ Fully Responsive - Optimized for mobile, tablet, and desktop views
+<br/>
 ✅ Multi-Page Layout - Organized sections for a structured experience
+<br/>
 ✅ HTML, CSS, Bootstrap, JavaScript - Built with cutting-edge web technologies
+<br/>
 ✅ Smooth Animations - Enhance user engagement
 
 # 📥 Installation
@@ -46,10 +54,12 @@ Use Live Server in VS Code for a better experience.
 3️⃣ Direct Download
 Alternatively, download the ZIP folder from GitHub and extract it.
 
-🤝 Contributing
+# 🤝 Contributing
 Want to improve Neura? Feel free to fork the repository, make your changes, and submit a pull request.
 
-📧 Contact
+# 📧 Contact
 For any questions or suggestions, reach out to:
+<br/>
 📩 Email: ompimpale2003@gmail.com
+<br/>
 🌐 GitHub: <a href="https://github.com/OmPimpale">OmPimpale</a>
